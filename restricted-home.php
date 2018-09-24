@@ -22,9 +22,9 @@ resHomeAuth($db);
 </head>
 <body>
 <?php
-definers(); 
+definers();
 uniquePage();
-include 'menu.php';
+include 'checkauth.php';
 ?>
 
 </body>
