@@ -1,4 +1,4 @@
-[not-group=5]
+[not-group=5] 
 <ul id="login_pane">
 	<li class="dropdown">
 		<a data-toggle="dropdown" class="btn-border" href="{profile-link}">
