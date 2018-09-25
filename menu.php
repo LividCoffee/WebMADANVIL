@@ -53,14 +53,14 @@ if(!defined("MenuSctipt")){ header('Location: index.php'); }
 	   }, 700);
 	});
 </script>
-  
-<?php 
+
+<?php
 else:
 ?>
 <br>
 <?php echo $_SESSION['email']; ?>
 <br>
 <a href="/logout.php">Выйти</a>
-<?php  
- endif;  
+<?php
+ endif;
 ?>

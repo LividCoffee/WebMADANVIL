@@ -8,6 +8,6 @@ if(!isLoggedIn($db)): ?>
 
 <!-- Редирект если зарегистрирован / авторизован -->
 <?php
-header('Location: http://rabotyag.ga/news/index.php/');
+header('Location: http://rabotyag.ga/index.php/');
 endif;
 ?>
