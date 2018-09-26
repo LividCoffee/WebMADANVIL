@@ -29,7 +29,7 @@
 				{info}
 				{content}
 	[/available]
-  
+
 	{AJAX}
 </body>
 </html>

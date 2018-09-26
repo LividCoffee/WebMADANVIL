@@ -6,56 +6,51 @@
       </div>
 	    <div id='show'>
         <div class="over" style="position:absolute; width:100%; top: 10%;">
-					<h1 class="title h1">
 						[validation]Продолжение регистрации[/validation]
-					</h1>
-					<div class="regtext">
 						[validation]
 							Ваш аккаунт был зарегистрирован на нашем сайте,
 							однако информация о Вас является неполной, поэтому ОБЯЗАТЕЛЬНО заполните дополнительные поля в Вашем профиле.<br>
 						[/validation]
-					</div>
 					[registration]
-					<form class="login_form" action="" method="post" role="form" style="width:300px;">
-					          <!-- -->
-								<input type="hidden" name="<?= $token_id; ?>" value="<?= $token_value; ?>">
-					            <div class="uk-margin">
-						  	    		<div class="uk-inline" style="width: 300px;">
-						  	    			<span class="uk-form-icon" uk-icon="icon: user"></span>
-						  	    			<input class="uk-input" type="text" id="reusername" name="<?= $form_names['loginform']['regfname'];?>" autocomplete="off" placeholder="Логин" value="" required />
-						  	    		</div>
-						  	    	</div>
 
-					            <div class="uk-margin">
-						  	    		<div class="uk-inline" style="width: 300px;">
-						  	    			<span class="uk-form-icon" uk-icon="icon: happy"></span>
-						  	    			<input class="uk-input" type="text" id="reusersurname" name="<?= $form_names['loginform']['regfsurname'];?>" autocomplete="off" placeholder="Имя" value="" required />
-						  	    		</div>
-						  	    	</div>
-					            <!-- -->
-					            <div class="uk-margin">
-						  	    		<div class="uk-inline" style="width: 300px;">
-						  	    			<span class="uk-form-icon" uk-icon="icon: mail"></span>
-						  	    			<input class="uk-input" type="text" id="reemail" name="<?= $form_names['loginform']['regfemail'];?>" autocomplete="off" placeholder="E-mail" value="" required />
-						  	    		</div>
-						  	    	</div>
-					            <!-- -->
-						  	    	<div class="uk-margin">
-						  	    		<div class="uk-inline" style="width: 300px;">
-						  	    			<span class="uk-form-icon" uk-icon="icon: lock"></span>
-						  	    			<input class="uk-input" type="password" id="repassword" name="<?= $form_names['loginform']['regfpassword1'];?>" autocomplete="off" placeholder="Пароль" value="" required />
-						  	    		</div>
-						  	    	</div>
-					            <!-- -->
-					            <div class="uk-margin">
-						  	    		<div class="uk-inline" style="width: 300px;">
-						  	    			<span class="uk-form-icon" uk-icon="icon: lock"></span>
-						  	    			<input class="uk-input" type="password" id="confirm-password" name="<?= $form_names['loginform']['regfpassword2'];?>" autocomplete="off" placeholder="Повторите пароль" value="" required />
-						  	    		</div>
-						  	    	</div>
-					            <!-- -->
-						  	    	<button class="uk-button uk-button-secondary uk-margin-small-bottom" style="width: 300px;" type="submit">СОЗДАТЬ АККАУНТ<input type="hidden" name="<?= $form_names['loginform']['regfregister']; ?>" id="register-submit" value=""></button>
-					          </form>
+							<div class="uk-margin">
+								<div class="uk-inline" style="width: 300px;">
+									<span class="uk-form-icon" uk-icon="icon: user"></span>
+									<input class="uk-input" type="text" name="name" id="name" class="wide" placeholder="Логин" required >
+								</div>
+							</div>
+
+							<div class="uk-margin">
+						 		<div class="uk-inline" style="width: 300px;">
+									<button class="uk-input" title="Проверить" onclick="CheckLogin(); return false;">Проверить</button>
+								</div>
+							</div>
+
+							<div id="result-registration"></div>
+
+							<div class="uk-margin">
+						 		<div class="uk-inline" style="width: 300px;">
+						 	  	<span class="uk-form-icon" uk-icon="icon: lock"></span>
+									<input class="uk-input" type="password" name="password1" placeholder="Пароль">
+								</div>
+							</div>
+
+							<div class="uk-margin">
+								<div class="uk-inline" style="width: 300px;">
+									<span class="uk-form-icon" uk-icon="icon: lock"></span>
+									<input class="uk-input" type="password" name="password2" placeholder="Повторите пароль">
+								</div>
+							</div>
+
+							<div class="uk-margin">
+	  	    			<div class="uk-inline" style="width: 300px;">
+	  	    				<span class="uk-form-icon" uk-icon="icon: mail"></span>
+	  	    				<input class="uk-input" type="email" name="email" placeholder="Почта">
+	  	    			</div>
+	  	    		</div>
+
+
+
 							[question]
 							<label for="question_answer">{question}</label>
 							<input placeholder="Введите ответ" type="text" name="question_answer" id="question_answer" class="wide" required>
