@@ -5,12 +5,7 @@
 	      <img src="https://www.ucraft.ru/images/icon2.png" width="150px" height="150px">
       </div>
 	    <div id='show'>
-        <div class="over" style="position:absolute; width:100%; top: 10%;">
-						[validation]Продолжение регистрации[/validation]
-						[validation]
-							Ваш аккаунт был зарегистрирован на нашем сайте,
-							однако информация о Вас является неполной, поэтому ОБЯЗАТЕЛЬНО заполните дополнительные поля в Вашем профиле.<br>
-						[/validation]
+        <div class="over" style="position: absolute;top: 30%;right: 0;bottom: 0;left: 40.5%;">
 					[registration]
 
 							<div class="uk-margin">
@@ -60,29 +55,10 @@
 							<input placeholder="Повторите код" title="Введите код указанный на картинке" type="text" name="sec_code" id="sec_code" required>
 							[/sec_code]
 							[recaptcha]
-									<!-- <li>{recaptcha}</li> -->
+									<!-- {recaptcha} -->
 							[/recaptcha]
 					[/registration]
-					[validation]
-				<label for="fullname">Ваше имя</label>
-				<input type="text" id="fullname" name="fullname" class="wide">
-
-				<label for="land">Место жительства</label>
-				<input type="text" id="land" name="land" class="wide">
-
-				<label for="image">О себе</label>
-				<textarea id="info" name="info" rows="5" class="wide"></textarea>
-
-				<label for="image">Аватар</label>
-				<input type="file" id="image" name="image" class="wide">
-
-				<table class="xfields">
-					{xfields}
-				</table>
-
-		[/validation]
-
-				<button class="btn" name="submit" type="submit">Зарегистрироваться</button>
+				<button class="uk-input" name="submit" type="submit" style="width:300px;">Зарегистрироваться</button>
 
 			</div>
 		</div>

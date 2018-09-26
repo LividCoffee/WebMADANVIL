@@ -28,6 +28,7 @@
 	[available=lostpassword|register]
 				{info}
 				{content}
+				{logout-link}
 	[/available]
 
 	{AJAX}
