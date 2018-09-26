@@ -1,4 +1,4 @@
-<div class='content' id='one'>
+<div class='content' id='one' style="width: 100%; height: 100vh;">
     <div id='hide' class="loading-spinner"></div>
     <div id="show" class="show_form">
       <div class="over" style="position:absolute; width:100%; top: 2%;">
