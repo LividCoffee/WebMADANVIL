@@ -24,11 +24,6 @@
                 <p style="width:300px;color:green;font-size:10pt;font-weight:700;font-family:Roboto;text-transform:uppercase;" id="result-registration"></p>
               </div>
 
-
-
-
-
-
 							<div class="uk-margin">
 						 		<div class="uk-inline" style="width: 300px;">
 						 	  	<span class="uk-form-icon" uk-icon="icon: lock"></span>
@@ -81,3 +76,5 @@
 		}, 200);
 	});
 </script>
+
+[validation]{include file="engine/modules/redirectreg.php"}[/validation]
