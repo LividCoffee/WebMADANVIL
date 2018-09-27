@@ -195,3 +195,13 @@ html>body .content {
 	margin-right: auto;
 	display: block;
 }
+
+#centerDiv {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -150px;
+}

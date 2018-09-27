@@ -5,7 +5,7 @@
 	      <img src="https://www.ucraft.ru/images/icon2.png" width="150px" height="150px">
       </div>
 	    <div id='show'>
-        <div class="over" style="position: absolute;top: 30%;right: 0;bottom: 0;left: 40.5%;">
+        <div class="over" id="centerDiv">
 					[registration]
 
 							<div class="uk-margin">
@@ -20,8 +20,14 @@
 									<button class="uk-input" title="Проверить" onclick="CheckLogin(); return false;">Проверить</button>
 								</div>
 							</div>
+              <div style="text-align:center;list-style-type: none;">
+                <p style="width:300px;color:green;font-size:10pt;font-weight:700;font-family:Roboto;text-transform:uppercase;" id="result-registration"></p>
+              </div>
 
-							<div id="result-registration"></div>
+
+
+
+
 
 							<div class="uk-margin">
 						 		<div class="uk-inline" style="width: 300px;">
