@@ -51,16 +51,14 @@
             <input class="uk-input" placeholder="Пароль" type="password" name="login_password" id="login_password">
           </div>
         </div>
-        <button class="uk-button uk-button-secondary uk-margin-small-bottom" style="width: 300px;" type="submit" onclick="submit();">ВОЙТИ</button>
+        <button class="uk-button uk-button-secondary uk-margin-small-bottom" style="width: 300px;background-color: #f39c12;color: #fff;" type="submit" onclick="submit();">ВОЙТИ</button>
         <br>
         <input name="login" type="hidden" id="login" value="submit">
-
-        <div class="login_form__foot">
-  				<a class="right" href="{registration-link}"><b>Регистрация</b></a>
-  				<a href="{lostpassword-link}">Забыли пароль?</a>
-  			</div>
-
       </form>
+      <div class="login_form__foot" style="width: 300px;margin-left: auto;margin-right: auto;display: block;">
+        <a class="right" href="{registration-link}"><button class="uk-button uk-button-primary uk-margin-small-bottom" style="width: 300px;" >РЕГИСТРАЦИЯ</button></a>
+        <a href="{lostpassword-link}"><button class="uk-button uk-button-primary uk-margin-small-bottom" style="width: 300px; background-color: #c0392b;" >ЗАБЫЛИ ПАРОЛЬ?</button></a>
+      </div>
       </div>
     </div>
   </div>

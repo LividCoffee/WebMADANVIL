@@ -21,13 +21,12 @@
 </head>
 <body>
 	[not-available=lostpassword|register]
-
-								{login}
+		{login}
 	[/not-available]
 
 	[available=lostpassword|register]
-				{info}
-				{content}
+		{info}
+		{content}
 	[/available]
 
 	{AJAX}
