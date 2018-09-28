@@ -1,0 +1,59 @@
+a.auth-link:not(:last-child) {
+    margin-right: 5px;
+}
+
+a.auth-link {
+     padding: 7px 8px;
+}
+
+a.leads i {
+    background: url("/favicon.ico") no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+
+a.leads {
+    color: #fff;
+    background: #009999;
+    height: 21px;
+}
+
+a.leads:hover, a.leads:focus, a.leads:active, a.leads.active, a.leads[disabled], a.leads.disabled {
+    background-color: #007c7c !important;
+    color: #fff !important;
+}
+
+
+a.vkontakte {
+    color: #fff;
+    background: #4f81bc;
+}
+
+a.vkontakte:hover, a.vkontakte:focus, a.vkontakte:active, a.vkontakte.active, a.vkontakte[disabled], a.vkontakte.disabled {
+    background-color: #4068ac !important;
+    color: #fff !important;
+}
+
+a.vkontakte i:before{
+    font-family: "brandico";
+    content: '\e801';
+    font-style: normal;
+}
+
+a.facebook {
+    color: #fff;
+    background: #4365a6;
+}
+
+a.facebook:hover, a.facebook:focus, a.facebook:active, a.facebook.active, a.facebook.disabled, a.facebook[disabled] {
+    background-color: #355090 !important;
+    color: #fff !important;
+}
+
+a.facebook i:before{
+    font-family: "brandico";
+    content: '\e802';
+    font-style: normal;
+}

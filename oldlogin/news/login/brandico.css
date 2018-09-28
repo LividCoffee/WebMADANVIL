@@ -1,0 +1,54 @@
+﻿/* icons from fontello.com */
+@font-face {
+    font-family: 'brandico';
+    src: url('/login/fonts/brandico.eot?52426760');
+    src: url('/login/fonts/brandico.eot?52426760#iefix') format('embedded-opentype'), url('/login/fonts/brandico.woff?52426760') format('woff'), url('/fonts/brandico.ttf?52426760') format('truetype'), url('/login/fonts/brandico.svg?52426760#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'brandico';
+    src: url('/login/fonts/brandico.svg?43533454#fontello') format('svg');
+  }
+}
+*/
+
+[class^="icon-social-"]:before, [class*=" icon-social-"]:before {
+    font-family: "brandico";
+}
+
+.icon-social-at-2:before {
+    content: '\e804';
+}
+
+/* 'о „' */
+.icon-social-vkontakte-rect:before {
+    content: '\e801';
+}
+
+/* 'о Ѓ' */
+.icon-social-odnoklassniki-rect:before {
+    content: '\e800';
+}
+
+/* 'о Ђ' */
+.icon-social-odnoklassniki:before {
+    content: '\e80a';
+}
+
+/* 'о Љ' */
+.icon-social-facebook-squared:before {
+    content: '\e802';
+}
+
+/* 'о ‚' */
+.icon-social-thumbs-up-alt:before {
+    content: '\e809';
+}
+
+/* 'о ‰' */

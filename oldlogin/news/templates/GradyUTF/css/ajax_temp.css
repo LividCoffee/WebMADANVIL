@@ -1,0 +1,31 @@
+.activetempajax {
+    text-decoration: none;
+    background: rgba(53, 57, 75, 0.1);
+}
+.view-type {
+    display: inline-block;
+    float: right;
+    margin-bottom: 12px;
+}
+.view-type a {
+    padding: 3px 6px;
+    display: inline-block;
+    border: 1px solid #d1d6dd;
+}
+.setview {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background: url("../images/set_view.png") no-repeat;
+}
+.view1 {
+    background-position: 0 0;
+}
+.view2 {
+    background-position: 0 -16px;
+}
+.view3 {
+    background-position: 0 -32px;
+}

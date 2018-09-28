@@ -1,0 +1,67 @@
+/* Template created by tcse-cms.com | Author: Vitaly V. Chuyakov | URL: http://tcse-cms.com */
+
+/* Выравнивание блоков по 3 в ряд */
+#dle-content .short-news:nth-of-type(3n+1) { clear: both; }
+.wp-caption {max-width: 100%;}
+.full-content img {
+	max-width: 100%;
+	display: inherit;
+}
+
+.header-logo {
+	padding: 10px 0;
+}
+
+/* Подвал */
+.bg-grey {
+	background-color: #2d3349;
+	color: #80909A;
+}
+.bg-grey a {
+	color: #fff;
+	text-decoration: none;
+}
+.bg-grey a:hover {
+	color: #eaeaeb;
+	text-decoration: underline;
+}
+.ratebox2 {
+  float: right;
+}
+
+.ratebox3 {
+  float: right;
+}
+
+.ratebox ul, .ratebox ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.ratebox2 ul, .ratebox2 ul li {
+  float: left;
+  list-style-type: none;
+}
+
+.ratebox3 ul, .ratebox3 ul li {
+  float: left;
+  list-style-type: none;
+}
+/* Правки для разной ширины экрана */
+@media (max-width:  640px) {
+	.header-logo {
+		text-align: center;
+	}
+	.full-content img {
+		max-width: 100%;
+		display: block;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	
+}
+
+
+
